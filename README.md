@@ -15,14 +15,16 @@ Should this error `[TerminalIPythonApp] WARNING | File not found: u'notebook'` p
 
     $ jupyter notebook
 
+The Bk.zip file is a collection of files that have to be unzipped in a subfolder (such as Bk). They are used all along the notebooks
+
 
 Online read-only versions
 =========================
 
 Use the following links:
 
-* [Lecture-1 Basic Element Ia: string, lists and filenames](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/scientific-python-lectures/master/Lecture-0-Scientific-Computing-with-Python.ipynb)
-* [Lecture-2 Basic Elements Ib: open a file, np.array and our first plot](http://nbviewer.ipython.org/urls/raw.github.com/jrjohansson/scientific-python-lectures/master/Lecture-1-Introduction-to-Python-Programming.ipynb)
+* [Lecture-1 Basic Element Ia: string, lists and filenames](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1a.ipynb)
+* [Lecture-2 Basic Elements Ib: open a file, np.array and our first plot](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1b.ipynb)
 
 References
 ==========
