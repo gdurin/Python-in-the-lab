@@ -27,7 +27,7 @@ Use the following links:
 * [Basic Elements Ib: open a file, np.array and our first plot](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1b.ipynb)
 * [Basic Elements Ib: an interesting exercise](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1_exercise.ipynb)
 * [Basic Elements II: your first dictionary, and the first integral using scipy](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_2.ipynb)
-* [Function and data fitting: a daily job in the lab](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_Function_and_data_fitting.ipynb)
+* [Function and data fitting: a daily job in the lab](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_Functions_and_data_fitting.ipynb)
 
 References
 ==========
