@@ -23,15 +23,17 @@ Online read-only versions
 
 Use the following links:
 
-* [Lecture-1 Basic Element Ia: string, lists and filenames](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1a.ipynb)
-* [Lecture-2 Basic Elements Ib: open a file, np.array and our first plot](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1b.ipynb)
+* [Basic Element Ia: string, lists and filenames](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1a.ipynb)
+* [Basic Elements Ib: open a file, np.array and our first plot](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1b.ipynb)
 * [Basic Elements Ib: an interesting exercise](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1_exercise.ipynb)
 * [Basic Elements II: your first dictionary, and the first integral using scipy](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_2.ipynb)
+* [Function and data fitting: a daily job in the lab](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_Function_and_data_fitting.ipynb)
 
 References
 ==========
 * [Lectures on scientific computing with Python of Robert Johansson](https://github.com/jrjohansson/scientific-python-lectures)
 * [The notebook viewer](http://nbviewer.jupyter.org/)
+* [LMFIT: Non-Linear Least-Squares Minimization and Curve-Fitting for Python](https://lmfit.github.io/lmfit-py/model.html)
 
 License
 =======
