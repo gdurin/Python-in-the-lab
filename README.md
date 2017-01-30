@@ -23,11 +23,12 @@ Online read-only versions
 
 Use the following links:
 
-* [Basic Element Ia: string, lists and filenames](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1a.ipynb)
-* [Basic Elements Ib: open a file, np.array and our first plot](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1b.ipynb)
-* [Basic Elements Ib: an interesting exercise](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_1_exercise.ipynb)
-* [Basic Elements II: your first dictionary, and the first integral using scipy](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_basicElements_2.ipynb)
-* [Function and data fitting: a daily job in the lab](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_Functions_and_data_fitting.ipynb)
+* [Basic Element Ia: string, lists and filenames](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_01_basicElements_a.ipynb)
+* [Basic Elements Ib: open a file, np.array and our first plot](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_01_basicElements_b.ipynb)
+* [Basic Elements Ib: an interesting exercise](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_01_basicElements_exercise.ipynb)
+* [Basic Elements II: your first dictionary, and the first integral using scipy](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_02_basicElements.ipynb)
+* [Function and data fitting: a daily job in the lab](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_03_Functions_and_data_fitting.ipynb)
+* [Classes I: your first class](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_04_Classes_a.ipynb)
 
 References
 ==========
