@@ -4,7 +4,7 @@ import matplotlib.pylab as plt
 
 class Dist:
     """
-    This class load the data for a single freq and a single type
+    This class load the data given a filename
     """
     def __init__(self, filename, is_avoid_zeros=True):
         # It is better to make general x,y arrays

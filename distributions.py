@@ -30,8 +30,8 @@ class Dist:
 
 class DistCollector:
     """
-    this is class to collect of the filenames 
-    and collect them in a dictionary
+    this is class to collect the filenames 
+    in a dictionary
 
     Parameters:
     ===========
@@ -65,6 +65,16 @@ class DistCollector:
         dis_types = [filename for filename in filenames if len(filename) <= maxLen]
         dis_types = set(dis_types)
         return dis_types
+
+    def plot(self, dis_type, loglog=True):
+        # Method to plot all the frequenicies together
+        fig = plt.figure()
+        ax = fig.add_subplot(111)
+        for key in self.distrs:
+            if dis_type in key:
+                d = self.distrs[key]
+                ax.loglog(d.x, d.y, 'o') 
+
 
 if __name__ == "__main__":
     mainDir = "/home/gf/src/Python/Python-in-the-lab/Bk"
