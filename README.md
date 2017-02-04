@@ -29,7 +29,8 @@ Use the following links:
 * [Basic Elements II: your first dictionary, and the first integral using scipy](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_02_basicElements.ipynb)
 * [Function and data fitting: a daily job in the lab](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_03_Functions_and_data_fitting.ipynb)
 * [Classes I: your first class](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_04_Classes_a.ipynb)
-* [Classes II: complexity and abstraction](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_04_Classes_b.ipynb). Use distribution.py, distribution2.py, and distribution3.py 
+* [Classes II: complexity and abstraction](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_04_Classes_b.ipynb). Use [distribution.py](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/distribution.py), distribution2.py, and distribution3.py 
+* [Classes III: subclasses](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_04_Classes_c.ipynb). 
 
 
 References
