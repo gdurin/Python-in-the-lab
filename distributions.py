@@ -74,7 +74,7 @@ class DistCollector:
             if dis_type in key:
                 d = self.distrs[key]
                 ax.loglog(d.x, d.y, 'o') 
-
+        plt.show()
 
 if __name__ == "__main__":
     mainDir = "/home/gf/src/Python/Python-in-the-lab/Bk"
