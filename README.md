@@ -3,9 +3,9 @@ Python in the lab: a short introductory course
 
 This is a collection of Ipython notebooks used for a Python-in-the-lab 20-hour course, first given at the Politecnico of Turin, Italy in Jan-Feb 2017.
 
-The idea is to learn the essential elements of Python by trying to immediately work with problems a PhD student or a researcher can find daily in a lab: as open files, plot, fitting, image analysis, etc.
+The idea is to learn the essential elements of Python by trying on 'real' problems. Something a PhD student or a researcher daily finds in a lab: reading files, make calcultations, plot results, do data fitting, some image analysis, etc.
 
-To open the notebooks, download the files to a directory on your computer and from that directory run:
+To open the notebooks, download the files into a directory on your computer and from that directory run:
 
     $ ipython notebook
 
@@ -15,7 +15,9 @@ Should this error `[TerminalIPythonApp] WARNING | File not found: u'notebook'` p
 
     $ jupyter notebook
 
-The Bk.zip file is a collection of files that have to be unzipped in a subfolder (such as Bk). They are used all along the notebooks
+The Bk.zip file is a collection of files that have to be unzipped in a subfolder (such as Bk). They are used all along the notebooks.
+
+The notebooks have been made using Python 3.X (with an exception, as written in the file)
 
 
 Online read-only versions
