@@ -36,6 +36,7 @@ Use the following links:
 * [Errors, Input/Output](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_05_Errors_IO_tools_a.ipynb)
 * [Python Tools to know (absolutely uncomplete)](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_05_Errors_IO_tools_b.ipynb)
 * [A couple of good exercises](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_06_Problems.ipynb)
+* [A small project](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_07_A_small_project.ipynb)
 
 References
 ==========
