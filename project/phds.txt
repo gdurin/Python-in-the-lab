@@ -1,0 +1,16 @@
+AER, Aerospace Engineering
+BEP, Architectural and Landscape Heritage
+ASP, Architecture. History and Project
+BSM, Bioengineering and Medical-Surgical sciences
+CHI, Chemical Engineering
+ICA, Civil and Environmental Engineering
+IIS, Computer and Control Engineering
+EET, Electrical, Electronics and Communications Engineering
+ENE, Energetics
+GPD, Management, Production and Design
+MTM, Materials Science and Technology
+INM, Mechanical Engineering
+MLG, Metrology
+FIS, Physics
+PAM, Pure and Applied Mathematics
+URD, Urban and Regional Development
