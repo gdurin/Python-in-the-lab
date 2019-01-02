@@ -1,3 +1,7 @@
+"""
+custom plots of pie and bar
+"""
+
 import numpy as np
 
 
