@@ -43,9 +43,10 @@ class DistCollector:
     """
     def __init__(self, mainDir, maxLen=1, material="F64ac"):  
         self._mainDir = mainDir
+        self._pattern =  "%s_????_%s.dat" % (material, maxLen*"?")
         # Check if the dist_type exists
         # How can we do it?
-        dis_types = self.get_distribution_types(maxLen)
+        dis_types = self.get_distribution_types(material, maxLen)
         print(dis_types)
         self.distrs = dict()
         for dis_type in dis_types:
@@ -58,11 +59,10 @@ class DistCollector:
                 freq = fname.split("_")[1]
                 self.distrs[(dis_type, freq)] = Dist(fname)
 
-    def get_distribution_types(self, maxLen=1):
-        filenames = glob.glob(os.path.join(self._mainDir, "*.dat"))
+    def get_distribution_types(self, material, maxLen=1):
+        filenames = glob.glob1(self._mainDir, self._pattern)
         filenames = [os.path.splitext(filename)[0] for filename in filenames]
-        filenames = [filename.split("_", 2)[2] for filename in filenames]
-        dis_types = [filename for filename in filenames if len(filename) <= maxLen]
+        dis_types = [filename.split("_")[2] for filename in filenames]
         dis_types = set(dis_types)
         return dis_types
 

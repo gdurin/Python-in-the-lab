@@ -94,10 +94,9 @@ class Classroom:
 
         tag: int or string (also as 'ALL')
         """
-        #if type(tag) == int and tag in self._id_codes:
-        if isinstance(tag, int) and tag in self._id_codes:
+        if type(tag) == int and tag in self._id_codes:
             df = self._get_student_info_by_id(tag)
-        elif isinstance(tag, str):
+        elif type(tag) == str:
             tag = tag.upper() 
             if tag in self.surnames:
                 df = self._get_student_info_by_surname(tag)
@@ -133,7 +132,7 @@ class Classroom:
         if not tag:
             print("Please provide some info")
             return
-        # df = self._get_student_info(tag)
+        df = self._get_student_info(tag)
         url = "https://didattica.polito.it/pls/portal30/sviluppo.foto_studente?p_matricola=%s" % df.name
         webbrowser.open(url)
         print("Browser opened")
@@ -142,10 +141,82 @@ class Classroom:
     def cds(self):
         return set(self.students['CDS STUDENTE'])
 
+class WinterClassroom(Classroom):
+    """
+    this is a subclass of Classroom
+    where only the students attendind the winter edition
+    are selected
+    """
+    def __init__(self, csv_filename, cds_filename, cols=6):
+        Classroom.__init__(self, csv_filename, cds_filename, cols=cols)
+        # Need to add mr.Botta to the database of the winter students
+        #
+        # Need selecting only the winter students
+        is_winter = self.students.FREQUENZA == 'Winter'
+        self.students = self.students[is_winter] 
+
+    def get_student_photo(self, tag=None):
+        print("Nothing this time")
+
+    def plot_pie(self):
+        """
+        plot the distribution of CDS students in a pie
+        see matplotlib documentation
+        """
+        pass
+
+    def plot_bar(self):
+        """
+        plot the distribution of CDS students in a bar
+        see matplotlib documentation
+        """
+        pass
+
+    def write_emails(self):
+        """
+        write a students_emails.txt file with as
+        <Surname Name> email;
+        etc
+        """
+        pass
+
+    def write_cds_id_sorted(self):
+        """
+        write a students_ids.txt file with as
+        ***** cds1 ******
+        id1 Surname1 Name1
+        id2 Surname2 Name2
+        .... 
+        ***** cds2 ******
+        idx Surnamex Namex
+        etc
+        with cds and Surnames sorted
+        """
+        pass
+
+    def write_cds_surnames_sorted(self):
+        """
+        write a students_surnames.txt file with as
+        ***** cds1 ******
+        Surname1 Name1 id1
+        Surname2 Name2 id2
+        .... 
+        ***** cds2 ******
+        Surnamex Namex idx
+        etc
+        with cds and Surnames sorted
+        """
+        pass
+
+    def my_group(self):
+        """
+        returns a df with the students of the group
+        """
 
 if __name__ == "__main__":
     csv_file = "01RONKG_2019.csv"
     cds_file ='phds.txt'
-    cl = Classroom(csv_file, cds_file)
+    cl = WinterClassroom(csv_file, cds_file)
     for c in sorted(cl.cds):
         cl.get_students_cds(c)
+
