@@ -284,7 +284,7 @@ class WinterClassroom(Classroom):
         if use == 'id_code':
             with open("students_emails.txt", 'w') as f:
                 for c,n,id_code in zip(self.students.COGNOME, self.students.NOME, 
-                                cl.students.index): 
+                                self.students.index): 
                     f.write("'%s %s' <S%s@studenti.polito.it>;" % (c,n,id_code))
             print("Student_emails.txt written")     
         # Solution group 8
@@ -297,7 +297,7 @@ class WinterClassroom(Classroom):
                     print(email, file=f)
         
 
-    def write_cds_id_sorted(self):
+    def write_cds_id_sorted(self, file_out="students_ids.txt"):
         """
         write a students_ids.txt file with as
         ***** cds1 ******
@@ -310,7 +310,7 @@ class WinterClassroom(Classroom):
         with cds and Surnames sorted
         """
         # From group 9
-        with open("students_ids.txt","w+") as f:
+        with open(file_out,"w+") as f:
         #cds_set=self.cds
             for c in self.cds:
                 group = self.students[self.students['CDS STUDENTE'] == c]
@@ -321,7 +321,7 @@ class WinterClassroom(Classroom):
                     student_info = self._get_student_info(_student)
                     f.write("%d %s %s\r\n"%(_student, ST.COGNOME, ST.NOME))
 
-    def write_cds_surnames_sorted(self):
+    def write_cds_surnames_sorted(self, outfile="cds_surname_sorted.txt"):
         """
         write a students_surnames.txt file with as
         ***** cds1 ******
@@ -334,7 +334,7 @@ class WinterClassroom(Classroom):
         with cds and Surnames sorted
         """
         # from group 5
-        f = open("cds_surname_sorted.txt", "w")
+        f = open(outfile, "w")
 
         my_dict = self.students.groupby(['CDS STUDENTE'], sort = True).groups   #mi restituisce una toupla = dizionario
                                                                                 #La chiave è il CDS che resituisce le matricole che sono le chiavi del database
