@@ -1,9 +1,9 @@
 Python in the lab: a short introductory course
 ==============================================
 
-This is a collection of Ipython notebooks used for a Python-in-the-lab 20-hour course, first given at the Politecnico of Turin, Italy in Jan-Feb 2017.
+This is a collection of Ipython notebooks used for a Python-in-the-lab 20-hour course, first given at the Politecnico of Turin, Italy in Jan-Feb 2017 for PhD students. The second edition, goven Winter of 2019, is quite different from the original one. It is free available downloading the V2019.2.X releases.
 
-The idea is to learn the essential elements of Python by trying on 'real' problems. Something a PhD student or a researcher daily finds in a lab: reading files, make calcultations, plot results, do data fitting, some image analysis, etc.
+The idea is to learn the essential elements of Python by trying on 'real' problems. Something a PhD student or a researcher daily finds in a lab: reading files, make calcultations, plot results, do data fitting, image analysis, etc.
 
 To open the notebooks, download the files into a directory on your computer and from that directory run:
 
@@ -17,26 +17,7 @@ Should this error `[TerminalIPythonApp] WARNING | File not found: u'notebook'` p
 
 The Bk.zip file is a collection of files that have to be unzipped in a subfolder (such as Bk). They are used all along the notebooks.
 
-The notebooks have been made using Python 3.X (with an exception, as written in the file)
-
-
-Online read-only versions
-=========================
-
-Use the following links:
-
-* [Basic Element Ia: string, lists and filenames](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_01_basicElements_a.ipynb)
-* [Basic Elements Ib: open a file, np.array and our first plot](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_01_basicElements_b.ipynb)
-* [Basic Elements Ib: an interesting exercise](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_01_basicElements_exercise.ipynb)
-* [Basic Elements II: your first dictionary, and the first integral using scipy](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_02_basicElements.ipynb)
-* [Function and data fitting: a daily job in the lab](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_03_Functions_and_data_fitting.ipynb)
-* [Classes I: your first class](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_04_Classes_a.ipynb)
-* [Classes II: complexity and abstraction](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_04_Classes_b.ipynb). Use [distribution.py](https://github.com/gdurin/Python-in-the-lab/blob/master/distributions.py), [distribution2.py](https://github.com/gdurin/Python-in-the-lab/blob/master/distributions2.py), [distribution3.py](https://github.com/gdurin/Python-in-the-lab/blob/master/distributions3.py) 
-* [Classes III: subclasses](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_04_Classes_c.ipynb)
-* [Errors, Input/Output](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_05_Errors_IO_tools_a.ipynb)
-* [Python Tools to know (absolutely uncomplete)](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_05_Errors_IO_tools_b.ipynb)
-* [A couple of good exercises](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_06_Problems.ipynb)
-* [A small project](http://nbviewer.ipython.org/urls/raw.github.com/gdurin/Python-in-the-lab/master/Py_lectures_07_A_small_project.ipynb)
+The notebooks have been made using Python 3.X (with an exception, as written in the file for the 2017 edition)
 
 References
 ==========
